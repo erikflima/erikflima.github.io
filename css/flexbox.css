@@ -1,0 +1,52 @@
+/*Aprendendo a usar a especificacao FlexBox*/
+
+
+/*----------------------Mexendo no cabecalho----------------------*/
+
+.cabecalhoPrincipal .container{
+	display: flex;                  /*Passa a exibir os elementos sequencialmente como se fosse uma caixa, um do lado do outro */
+
+	align-items: center;            /*Alinha os elementos verticalmente no meio*/
+
+	justify-content: space-between; /*Definindo um espaco entre os elementos que possuem a classe "container" */
+
+	}
+
+	
+.cabecalhoPrincipal-nav{
+	display: flex;  /*Passa a exibir os elementos sequencialmente como se fosse uma caixa, um do lado do outro */
+
+}
+
+
+/*----------------------Mexendo no rodape----------------------*/
+
+
+
+.rodapePrincipal-patrocinadores .container{
+
+	display: flex;  /*Passa a exibir os elementos sequencialmente como se fosse uma caixa, um do lado do outro */
+	justify-content: space-between; /*Definindo um espaco entre os elementos que possuem a classe "container" */
+}
+
+.rodapePrincipal-patrocinadores-list {
+	display: flex;  /*Passa a exibir os elementos sequencialmente como se fosse uma caixa, um do lado do outro */
+
+	align-items: center;            /*Alinha os elementos verticalmente no meio*/
+
+	justify-content: space-around; /*Definindo um espaco envolta os elementos que possuem a classe "container" */
+
+	width: 70%; /*Definindo a porcentagem ocupada da linha */
+	
+	margin-right: 5%; /*Definindo uma margem direita da linha*/
+	}
+	
+	
+.rodapePrincipal-contatoForm {
+
+width: 25%; /*Definindo a porcentagem ocupada da linha */
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+    display: flex;
+}
